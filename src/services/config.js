@@ -1,7 +1,7 @@
 import axios from "axios";
 import AuthService from "./auth.service.js";
 
-export const beURL = "https://diamond-valuation-system.onrender.com/api/v1/";
+export const beURL = "http://shourai.io.vn/api/v1/";
 
 export const http = axios.create({
   //baseURL: "http://localhost:8080/api/v1/",
